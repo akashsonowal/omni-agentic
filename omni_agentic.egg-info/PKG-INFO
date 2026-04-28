@@ -1,3 +1,25 @@
+Metadata-Version: 2.4
+Name: omni-agentic
+Version: 0.1.0
+Summary: Agentic inference on heterogeneous hardware
+Author: omni-agentic contributors
+License: MIT
+Keywords: llm,inference,agents,heterogeneous,hardware
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.0
+Requires-Dist: transformers>=4.38
+Requires-Dist: accelerate>=0.27
+Requires-Dist: pydantic>=2.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4; extra == "dev"
+Requires-Dist: pytest-cov>=4.1; extra == "dev"
+Requires-Dist: ruff>=0.3; extra == "dev"
+
 # omni-agentic
 
 **Agentic inference on heterogeneous hardware.**
